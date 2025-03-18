@@ -43,8 +43,6 @@
 		"prefix": "stf",
 		"body": [
 			"import 'package:flutter/material.dart';",
-			"import 'package:sivas_tso/core/base/state/base_state.dart';",
-			"import 'package:sivas_tso/core/base/view/base_view.dart';",
 			"",
 			"class ${1} extends StatefulWidget {",
 			"  const ${1}({Key? key}) : super(key: key);",
@@ -80,7 +78,6 @@
 	"Material Stateless Widget": {
 		"prefix": "statlessWithUtility",
 		"body": [
-			"import 'package:dmb_boutique/product/mixin/utility_mixin.dart';",
 			"import 'package:flutter/material.dart';",
 			"",
 			"class $1 extends StatelessWidget with UtilityMixin{",
