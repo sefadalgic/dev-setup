@@ -1,0 +1,21 @@
+<templateSet group="Custom Flutter Snippets">
+  <template name="stles" value="import '../../mixin/utility_mixin.dart';&#10;import 'package:flutter/material.dart';&#10;&#10;class $1$ extends StatelessWidget with UtilityMixin {&#10;  const $1$ ({super.key});&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Container();&#10;  }&#10;}" description="Stateless Widget with Utility Mixin" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="sng" value="class $1$ {&#10;    static $1$? _instance;&#10;    static $1$ get instance {&#10;    _instance ??= $1$._init();&#10;    return _instance!;&#10;  }&#10;    $1$._init();&#10;}" description="Singleton Class" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="mobx" value="import 'package:mobx/mobx.dart';&#10;part '$1$.g.dart';&#10;&#10;class $CLASS_NAME$ = $CLASS_NAME$Base with _$$CLASS_NAME$;&#10;&#10;abstract class $CLASS_NAME$Base with Store {&#10;&#10;}" description="Mobx Store Class" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>

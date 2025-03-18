@@ -1,0 +1,15 @@
+<keymap version="1" name="VSCode OSX (Migrated)" parent="VSCode OSX">
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="SaveDocument" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta e" />
+  </action>
+  <action id="com.codeium.intellij.editor_menu.ExplainSelection">
+    <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
+</keymap>

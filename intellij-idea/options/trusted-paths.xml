@@ -1,0 +1,39 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="/" value="true" />
+        <entry key="$USER_HOME$/.pub-cache/hosted/pub.dev" value="true" />
+        <entry key="$USER_HOME$/Desktop/Yiğithan/HakanBT/plan_sor/plan_sor" value="true" />
+        <entry key="$USER_HOME$/Desktop/dmb_boutique" value="true" />
+        <entry key="$USER_HOME$/Desktop/proje/tugba_sut/tugba_sut" value="true" />
+        <entry key="$USER_HOME$/Desktop/projects/yollar_engelsiz" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/engelsiz_yollar" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/engelsiz_yollar/engelsizyollar" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/hbt-medya" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/hbt-medya/fitness-spor/fitness_spor_1" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/hbt-medya/guzellik/guzellik_1" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/hbt-medya/guzellik/guzellik_2" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/hbt-medya/guzellik/guzellik_3" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/hbt-medya/optik/optik_1" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/hbt-medya/rent-a-car/rent_a_car_2" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/hbt-medya/rent-a-car/rent_a_car_3" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/hbt-medya/rent-a-car/rent_a_car_template" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/kader_food" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/plansor" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/tso" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/tugba_sut" value="true" />
+        <entry key="$USER_HOME$/Desktop/sefa/tugbasut" value="true" />
+        <entry key="$USER_HOME$/Desktop/yeniden_tamir" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Desktop/sefa" />
+      </list>
+    </option>
+  </component>
+</application>

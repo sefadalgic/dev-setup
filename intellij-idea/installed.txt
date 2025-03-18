@@ -1,0 +1,13 @@
+com.chenrl.plugin.todo
+com.codeium.intellij
+Dart
+andrasferenczi.dart-data-plugin
+com.herbert.george.flutter-snippets
+com.intellij.plugins.vscodekeymap
+cn.neday.excavator
+com.intellij.ml.llm
+izhangzhihao.rainbow.brackets
+org.jetbrains.android
+com.chrisrm.idea.MaterialThemeUI
+shop.itbug.FlutterCheckVersionX
+io.flutter
