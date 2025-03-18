@@ -1,0 +1,126 @@
+{
+	"print to console":{
+		"prefix": "pr",
+		"scope": "dart",
+		"description": "print to console",
+		"body": "debugPrint('$1');"
+	},
+	"icon":{
+		"description": "build icon",
+		"prefix": "icn",
+		"scope": "dart",
+		"body": "Icon(Icons.$1);"	
+	},
+	"color":{
+		"description": "build color",
+		"prefix": "clr",
+		"scope": "dart",
+		"body": "Colors.$1"	
+	},
+	"Bold Font Weight": {
+		"description": "Font Weight Bold",
+		"prefix": "bold",
+		"scope": "dart",
+		"body": "fontWeight: FontWeight.bold,"
+	},
+	"SingletonEager": {
+		"scope": "dart",
+		"prefix": "sefaSingleton",
+		"body": [
+		  "class $1 {",
+		  "static $1? _instance;",
+		  "static $1 get instance {",
+		  "if (_instance == null) _instance = $1._init();",
+		  "return _instance!;",
+		  "}",
+		  "$1._init();",
+		  "}"
+		],
+		"description": "Singleton Class Reference"
+	  },
+
+	"StatefullWidget":{
+		"prefix": "stf",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"import 'package:sivas_tso/core/base/state/base_state.dart';",
+			"import 'package:sivas_tso/core/base/view/base_view.dart';",
+			"",
+			"class ${1} extends StatefulWidget {",
+			"  const ${1}({Key? key}) : super(key: key);",
+
+			"@override",
+			"State<${1}> createState() => _${1}State();",
+			"}",
+
+			"class _${1}State extends BaseState<${1}> {",
+
+			"@override",
+			"Widget build(BuildContext context) {",
+				"return BaseView(",
+					"viewModel: $1Model(),",
+					"onPageBuild: (context, viewModel) => _buildBody,",
+				");",
+			"}",
+			"Widget get _buildBody {",
+				"return Scaffold();",
+			"}",
+			"}"
+		]
+	},
+	
+	"Build Context": {
+		"prefix": "bld",
+		"body": [
+			"BuildContext context"
+		],
+	"description": "BuildContext variable for methods"
+	},
+
+	"Material Stateless Widget": {
+		"prefix": "statlessWithUtility",
+		"body": [
+			"import 'package:dmb_boutique/product/mixin/utility_mixin.dart';",
+			"import 'package:flutter/material.dart';",
+			"",
+			"class $1 extends StatelessWidget with UtilityMixin{",
+			"  const $1 ({super.key});",
+			"",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return Container();",
+			"  }",
+			"}"
+		],
+	"description": "stless"
+	},
+
+	"ApiRequest":{
+		"prefix": "apiRequest",
+		"body": [
+			"final request = await $1;",
+			"if (request.statusCode == HttpStatus.ok) {",
+			"final response = jsonDecode(request.toString());",
+			"}"
+		]
+	},
+
+	"GoRouter": {
+		"prefix": "gorouter",
+		"body": [
+			"GoRoute(",
+				"path: $1,",
+				"pageBuilder: (context, state) {",
+					"final extra = state.extra as ArgumentModel;",
+					"return CustomTransitionPage(",
+							"child: MainView(",
+						"isBackButtonEnabled: $2,",
+						"body: $3",
+						
+						"),",
+						"transitionsBuilder: ${4});",
+						"},",
+						"),"
+		]
+	}
+}
