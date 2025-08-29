@@ -97,5 +97,9 @@
     {
         "key": "cmd+e",
         "command": "composerMode.background"
-    }
+    },
+    {
+        "key": "cmd+r cmd+w",
+        "command": "workbench.action.closeAllEditors"
+    },
 ]
