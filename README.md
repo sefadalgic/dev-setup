@@ -8,10 +8,12 @@ Repo içerisindeki `extensions.txt` dosyasındaki tüm eklentileri yüklemek iç
 
 ```bash
 while read line; do code --install-extension "$line";done <extensions.txt
+```
 
-## Vs Code Extensions Listesi
+## VS Code Extensions Kurulumu
 
 Vs Code içerisindeki kurulu extensionları liste şeklinde bir dosyada toplar
 
 ```bash
 code --list-extensions > extensions.list
+```
